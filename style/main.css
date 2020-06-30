@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: lightsalmon;
 
   border-radius: 20px;
   justify-content: center;
@@ -13,7 +13,7 @@ body {
   font-size: 14px;
 }
 
-.enter-button {
+.try-button {
   margin-top: 15px;
   background: #2c97e2;
   border: none;
