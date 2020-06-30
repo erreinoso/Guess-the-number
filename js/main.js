@@ -31,9 +31,7 @@ function handleInput() {
   if (userinputnumber === random) {
     clue.innerHTML = '¡Has ganado, campeona!';
     // attemps = 0; Depende de la interpretación.
-    //Se podría hacer que solo subiera de intentos si se equivoca
-    //metiendo la funcion handlecounter en las condiciones en las que no coinciden
-    //los valores
+    //El enunciado dice que pongamos el numero de veces que se ha pulsado el boton, no el numero de intentos por lo que dejo que se deje acumulando
   } else if (userinputnumber > random && userinputnumber <= 100) {
     clue.innerHTML = 'Demasiado alto';
   } else if (userinputnumber < random && userinputnumber > 0) {
